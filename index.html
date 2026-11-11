@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Engineering portfolio of Phillip Sonstegard, mechanical engineering student at the University of Rochester.">
+  <title>Phillip Sonstegard | Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="wordmark" href="index.html"><span class="wordmark-mark">PS</span><span>PHILLIP SONSTEGARD</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a class="active" href="#work">Projects</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> MECHANICAL ENGINEERING · UNIVERSITY OF ROCHESTER</div>
+          <h1>Phillip<br><span>Sonstegard</span></h1>
+          <p class="hero-lede">Engineering, analysis, and software built to solve practical problems.</p>
+          <p class="hero-body">I’m a mechanical engineering student interested in aerospace systems, computational analysis, and the design of useful engineering tools. This portfolio documents selected projects, technical work, and what I’m learning along the way.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore projects <span>↘</span></a>
+            <a class="text-link" href="#contact">Get in touch <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Abstract technical illustration">
+          <div class="visual-topline"><span>ENGINEERING NOTEBOOK</span><span>001 / 026</span></div>
+          <div class="blueprint">
+            <div class="blueprint-ring ring-one"></div>
+            <div class="blueprint-ring ring-two"></div>
+            <div class="blueprint-ring ring-three"></div>
+            <div class="blueprint-axis axis-x"></div><div class="blueprint-axis axis-y"></div>
+            <div class="blueprint-cross cross-a">+</div><div class="blueprint-cross cross-b">+</div>
+            <div class="blueprint-label label-a">SYSTEMS<br>THINKING</div>
+            <div class="blueprint-label label-b">DESIGN<br>ITERATION</div>
+            <div class="blueprint-center">PS<span> / ME</span></div>
+          </div>
+          <div class="visual-bottomline"><span>ANALYZE → DESIGN → VALIDATE</span><span>ROCHESTER, NY</span></div>
+        </div>
+      </section>
+
+      <section class="metrics-strip">
+        <div><span class="metric-value">01</span><span class="metric-label">Independent software project</span></div>
+        <div><span class="metric-value">ME</span><span class="metric-label">Mechanical engineering</span></div>
+        <div><span class="metric-value">CAD</span><span class="metric-label">Design &amp; assemblies</span></div>
+        <div><span class="metric-value">MATLAB</span><span class="metric-label">Engineering computation</span></div>
+      </section>
+
+      <section class="content-section" id="work">
+        <div class="section-heading">
+          <div><div class="eyebrow">SELECTED WORK / 01</div><h2>Featured projects</h2></div>
+          <p>Selected engineering work, from computational modeling to mechanical design.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <a class="project-image solar-art" href="projects/solar-battery-model.html" aria-label="View solar battery modeling project">
+              <div class="solar-sun"></div><div class="solar-grid"></div>
+              <span class="image-index">PROJECT 001</span><span class="image-caption">ENERGY SYSTEMS / PYTHON</span>
+              <span class="image-arrow">↗</span>
+            </a>
+            <div class="project-info">
+              <div class="project-meta"><span>SOFTWARE DEVELOPMENT</span><span>2026</span></div>
+              <h3><a href="projects/solar-battery-model.html">Solar-Battery Modeling Application</a></h3>
+              <p>A Python application for modeling residential solar production, battery operation, utility costs, and long-term system performance.</p>
+              <div class="tag-row"><span>Python</span><span>pvlib</span><span>NumPy</span><span>Pandas</span><span>SQLite</span></div>
+              <a class="card-link" href="projects/solar-battery-model.html">View project details <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-image turbo-art" href="projects/turbojet-analysis.html" aria-label="View turbojet analysis project">
+              <div class="engine-core"></div><div class="engine-flow flow-one"></div><div class="engine-flow flow-two"></div>
+              <span class="image-index">PROJECT 002</span><span class="image-caption">PROPULSION / MATLAB</span>
+              <span class="image-arrow">↗</span>
+            </a>
+            <div class="project-info">
+              <div class="project-meta"><span>THERMODYNAMICS</span><span>COURSEWORK</span></div>
+              <h3><a href="projects/turbojet-analysis.html">Turbojet Engine Analysis</a></h3>
+              <p>Thermodynamic analysis of a turbojet cycle, with MATLAB code developed to perform the group’s calculations.</p>
+              <div class="tag-row"><span>MATLAB</span><span>Thermodynamics</span><span>Propulsion</span></div>
+              <a class="card-link" href="projects/turbojet-analysis.html">View project details <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-image cad-art" href="projects/cad-design.html" aria-label="View CAD design work">
+              <div class="cad-shape shape-one"></div><div class="cad-shape shape-two"></div><div class="cad-shape shape-three"></div>
+              <span class="image-index">PROJECT 003</span><span class="image-caption">MECHANICAL DESIGN / NX</span>
+              <span class="image-arrow">↗</span>
+            </a>
+            <div class="project-info">
+              <div class="project-meta"><span>COMPUTER-AIDED DESIGN</span><span>COURSEWORK</span></div>
+              <h3><a href="projects/cad-design.html">CAD &amp; Mechanical Design</a></h3>
+              <p>Part modeling and assemblies in Siemens NX, including the use of standard components and geometric dimensioning and tolerancing.</p>
+              <div class="tag-row"><span>Siemens NX</span><span>Assemblies</span><span>GD&amp;T</span></div>
+              <a class="card-link" href="projects/cad-design.html">View project details <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+        <div class="coming-soon"><span class="coming-line"></span><span>MORE PROJECTS IN DEVELOPMENT</span><span class="coming-line"></span></div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="about-number">02 <span>/ ABOUT</span></div>
+        <div class="about-main">
+          <div class="eyebrow">ENGINEERING APPROACH</div>
+          <h2>Curious about how things work.<br><span>Driven to build and understand them.</span></h2>
+          <p>I’m pursuing a B.S. in Mechanical Engineering at the University of Rochester, with interests in aerospace engineering, computational methods, and mechanical design. I enjoy work that combines analytical problem-solving with practical implementation, especially when I can write code or build a tool to make the analysis repeatable.</p>
+          <div class="about-columns">
+            <div><h4>Currently focused on</h4><p>Mechanical engineering coursework, finite element methods, computational analysis, and expanding my project portfolio.</p></div>
+            <div><h4>How I work</h4><p>I value understanding the underlying physics, checking assumptions, and communicating results clearly—not just producing an answer.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience-section" id="experience">
+        <div class="section-heading">
+          <div><div class="eyebrow">BACKGROUND / 03</div><h2>Experience &amp; education</h2></div>
+          <p>A snapshot of the experiences shaping my engineering background.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item"><div class="timeline-date">2024 — PRESENT</div><div><h3>University of Rochester</h3><p class="timeline-role">B.S. Mechanical Engineering · Aerospace Minor</p><p>Coursework and projects in dynamics, thermodynamics, CAD, MATLAB, and finite element methods.</p></div></div>
+          <div class="timeline-item"><div class="timeline-date">2026</div><div><h3>Powerfully Green</h3><p class="timeline-role">Solar-Battery Modeling Project</p><p>Developed a Python-based application for residential solar and battery system modeling, analysis, and reporting.</p></div></div>
+          <div class="timeline-item"><div class="timeline-date">UNIVERSITY ROLE</div><div><h3>Introduction to Aerospace Engineering</h3><p class="timeline-role">Teaching Assistant</p><p>Lead labs and workshops, hold office hours, and help students work through topics in compressible flow, propulsion, and aerospace fundamentals.</p></div></div>
+          <div class="timeline-item"><div class="timeline-date">JAN — MAY 2024</div><div><h3>ISS Zero-Gravity Research Project</h3><p class="timeline-role">Circuit Team Lead</p><p>Contributed to a 12-person team developing a mushroom research module designed for zero-gravity experimentation.</p></div></div>
+        </div>
+      </section>
+
+      <section class="skills-section">
+        <div class="eyebrow">TOOLS &amp; METHODS / 04</div><h2>Technical toolkit</h2>
+        <div class="skills-grid">
+          <div><span class="skill-icon">⌘</span><h3>Programming &amp; analysis</h3><p>Python · MATLAB · NumPy · Pandas · pvlib</p></div>
+          <div><span class="skill-icon">◇</span><h3>Mechanical design</h3><p>Siemens NX · Part modeling · Assemblies · GD&amp;T</p></div>
+          <div><span class="skill-icon">∑</span><h3>Engineering methods</h3><p>Thermodynamics · Dynamics · FEM fundamentals · Energy systems</p></div>
+          <div><span class="skill-icon">▤</span><h3>Development tools</h3><p>Git · SQLite · Technical documentation · Data visualization</p></div>
+        </div>
+        <p class="skills-note">Skills listed reflect coursework and project experience; proficiency varies by tool and topic.</p>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-orbit"><span>LET’S<br>CONNECT</span></div>
+        <div><div class="eyebrow">CONTACT / 05</div><h2>Have a project or opportunity in mind?</h2><p>I’m always interested in connecting with people working on challenging engineering problems.</p><a class="button button-primary" href="mailto:pipsonstegard@gmail.com">Email me <span>↗</span></a></div>
+      </section>
+    </main>
+
+    <footer class="footer"><a class="wordmark" href="#"><span class="wordmark-mark">PS</span><span>PHILLIP SONSTEGARD</span></a><span>ENGINEERING PORTFOLIO · 2026</span><a href="#top">BACK TO TOP ↑</a></footer>
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
